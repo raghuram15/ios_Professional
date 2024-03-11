@@ -18,10 +18,9 @@ class OnboardingContainerViewController: UIViewController {
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         self.pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
-        
-        let page1 = ViewController1()
-        let page2 = ViewController2()
-        let page3 = ViewController3()
+        let page1 = OnBoardingViewController(heroImageName: "delorean", titleText: "Vector based assets scales much better than retina image adobe illustrator is a vector based graphics drawing tool ")
+        let page2 = OnBoardingViewController(heroImageName: "world", titleText: "Vector based assets scales much better than retina image adobe illustrator is a vector based graphics drawing tool ")
+        let page3 = OnBoardingViewController(heroImageName: "thumbs", titleText: "Vector based assets scales much better than retina image adobe illustrator is a vector based graphics drawing tool ")
         
         pages.append(page1)
         pages.append(page2)

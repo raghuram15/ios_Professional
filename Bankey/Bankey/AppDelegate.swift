@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.backgroundColor = .systemBackground
        // window?.rootViewController = LoginViewController()
-        window?.rootViewController = OnBoardingViewController()
+       // window?.rootViewController = OnBoardingViewController(heroImageName: "delorean", titleText: "Vector based assets scales much better than retina image adobe illustrator is a vector based graphics drawing tool ")
+        window?.rootViewController = OnboardingContainerViewController()
         return true
     }
 
